@@ -1,69 +1,118 @@
 <!DOCTYPE html>
 <html>
     <head>
-            <title>AGRICULTURE INFORMATION PORTAL</title> 
-        </head>
-
-        <body>
-            <img src="agri.jpg" width="100%" height="300px">
-                <h1 align="center">Agriculture Information Portal</h1>
-
-            <p align="center"><b>Growing Knowledge, Growing Agriculture</b></p>
-
-        <div align="center">
-        <a href="#about">About Us</a>
-        <a href="#crops">Crops</a>
-        <a href="#info">Information</a>
-        <a href="#weather">Weather</a>
-        <a href="#fertilizer">Fertilizers</a>
-        <a href="#registration">Registration</a>
-        <a href="#contact">Contact</a>
-        </div>
-
-        <hr>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>AGRICULTURE INFORMATION PORTAL</title>
+            <img src="D:\CHRIST\SUBJECTS\wsd\agribanner1.png" width="100%" height="500px">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
         
+        </head>  
+        <body>
 
-        <hr>
+        <link rel="stylesheet" type="text/css" href="external.css">
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1C3D2F">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#about">Home</a>
+                    <a class="nav-link" href="#crops">Crops</a>
+                    <a class="nav-link" href="#info">Information</a>
+                    <a class="nav-link" href="#weather">Weather</a>
+                    <a class="nav-link" href="#fertilizer">Fertilizers</a>
+                    <a class="nav-link" href="#schemes">Schemes</a>
+                    <a class="nav-link" href="#registration">Registration</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+        </nav>
 
         <h2 id="about"><b>About Us</h2>
         <p>The Agriculture Information Portal provides farmers with useful information about crops, fertilizers, weather conditions, market prices and government schemes. Our aim is to help farmers improve productivity using modern agricultural knowledge and technology.</p>
-        <hr>
 
-        <h2 id="crops" style="color: blue; background-color: lightgrey;">Crops</h2>
+        <h2 id="crops"><b>Crops</b></h2>
 
-        <ul>
-        <li><h2>Rice</h2></li>
-        <p>Rice is the staple food crop of India and is mainly grown during the Kharif season.</p>
+        <div class="container-fluid">
 
-        <li><h2>Wheat</h2></li>
-        <p>Wheat is an important Rabi crop used for making flour, bread and other food products.</p>
+            <div class="row">
 
-        <li><h2>Maize</h2></li>
-        <p>Maize is a versatile cereal crop used for food, animal feed and industrial purposes.</p>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="rice.jpg" class="card-img-top" alt="Rice">
+                        <div class="card-body">
+                            <h5 class="card-title">Rice</h5>
+                            <p class="card-text">Rice is the staple food crop of India and is mainly grown during the Kharif season.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <li><h2>Sugarcane</h2></li>
-        <p>Sugarcane is a commercial crop cultivated mainly for sugar and ethanol production.</p>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="wheat.jpg" class="card-img-top" alt="Wheat">
+                        <div class="card-body">
+                            <h5 class="card-title">Wheat</h5>
+                            <p class="card-text">Wheat is an important Rabi crop used for making flour, bread and other food products.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <li><h2>Cotton</h2></li>
-        <p>Cotton is India's major fibre crop and is widely used in the textile industry.</p>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="maize.jpg" class="card-img-top" alt="Maize">
+                        <div class="card-body">
+                            <h5 class="card-title">Maize</h5>
+                            <p class="card-text">Maize is a versatile cereal crop used for food, animal feed and industrial purposes.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <li><h2>Groundnut</h2></li>
-        <p>Groundnut is an important oilseed crop used for edible oil production.</p>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="sugarcane.jpg" class="card-img-top" alt="Sugarcane">
+                        <div class="card-body">
+                            <h5 class="card-title">Sugarcane</h5>
+                            <p class="card-text">Sugarcane is a commercial crop cultivated mainly for sugar and ethanol production.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <li><h2>Millets</h2></li>
-        <p>Millets are nutritious grains that grow well in dry regions and require less water.</p>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="cotton.jpg" class="card-img-top" alt="Cotton">
+                        <div class="card-body">
+                            <h5 class="card-title">Cotton</h5>
+                            <p class="card-text">Cotton is India's major fibre crop and is widely used in the textile industry.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <li><h2>Pulses</h2></li>
-        <p>Pulses are rich in protein and help improve soil fertility through nitrogen fixation.</p>
-        </ul>
-        <hr>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="groundnut.jpg" class="card-img-top" alt="Groundnut">
+                        <div class="card-body">
+                            <h5 class="card-title">Groundnut</h5>
+                            <p class="card-text">Groundnut is an important oilseed crop used for edible oil production.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <h2 id="info"><b>Crop Information</b></h2>
 
-        <table border="1" cellpadding="10">
-.
+        </div>
+        </div>
+
+        <h2 id="info" ><b>Crop Information</b></h2>
+
+        <table border="2" cellpadding="10">
+
         <tr>
+
         <th>Crop</th>
         <th>Growing Season</th>
         <th>Duration</th>
@@ -128,9 +177,7 @@
 
         </table>
 
-        <hr>
-
-        <h2 id="weather">Weather Information</h2>
+        <h2 id="weather"><b>Weather Information</b></h2>
 
         <table border="1" cellpadding="10">
 
@@ -150,9 +197,9 @@
 
         </table>
 
-        <hr>
+        
 
-        <h2 id="fertilizer">Recommended Fertilizers</h2>
+        <h2 id="fertilizer"><b>Recommended Fertilizers</b></h2>
 
         <table border="1" cellpadding="10">
 
@@ -200,9 +247,7 @@
 
         </table>
 
-        <hr>
-
-        <h2>Government Schemes</h2>
+        <h2 id="schemes"><b>Government Schemes</b></h2>
 
         <ol>
 
@@ -218,9 +263,8 @@
 
         </ol>
 
-        <hr>
-
         <h2 id="registration"><b>Farmer Registration Form</b></h2>
+        <form action="" method="">
         
         <label for="username">Name :</label><br>
         <input type="text" name="username" ><br><br>
@@ -234,6 +278,13 @@
         <label for="state">State :</label><br>
         <input type="text" name="State" ><br><br>
 
+        <label>Gender :</label>
+        <br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female
+          <br><br>
+        
+
         <label for="Crop">Select Crop :</label>
         <select id="Registration" name="crop name">
             <option>Rice</option>
@@ -243,11 +294,7 @@
             <option>Cotton</option>
             <option>Groundnut</option>
         </select><br><br>
-        <label>Gender :</label>
-        <br>
-        <input type="radio" name="gender" value="male">Male<br>
-        <input type="radio" name="gender" value="female">Female
-          <br><br>
+
 
         <label>Service Required :</label>
         <br>
@@ -256,11 +303,11 @@
         <input type="checkbox" name="services" value="Government Schemes">Government Schemes<br>
         <input type="checkbox" name="servcies" value="Farming Equipment Information">Farming Equipment Information<br><br>
 
-        <form action="" method="">
-        <input type="submit" value="Register">
-        <input type="reset" value="Clear"><br><br>
-
-        <hr>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+        </form>
+        <br><br>
 
         <h2 id="contact"><b>Contact Us</b></h2>
 
@@ -274,10 +321,9 @@
 
             </p>
 
-            <h2>video example</h2>
+            <h2><b>Video </b></h2>
             <video controls width="600" autoplay muted loop>
                 <source src="C:\Users\SHREYAS P\Videos\video.mp4" type="video/mp4">
             </video> 
-
     </body>
 </html>
